@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane id="creation" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@css.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication3.LevelChController">
+   <children>
+      <ImageView fitHeight="401.0" fitWidth="600.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Icons/Light-Blue-Wallpaper-Mobile-gnNmo.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="question" prefHeight="234.0" prefWidth="557.0">
+         <children>
+            <AnchorPane layoutX="116.0" layoutY="12.0" prefHeight="346.0" prefWidth="339.0">
+               <children>
+                  <Button fx:id="facile" layoutX="83.0" layoutY="95.0" mnemonicParsing="false" onAction="#QFacile" prefHeight="53.0" prefWidth="173.0" styleClass="button-raised" stylesheets="@css.css" text="Facile" />
+                  <Button fx:id="moye" layoutX="83.0" layoutY="173.0" mnemonicParsing="false" onAction="#QMoyenne" prefHeight="53.0" prefWidth="173.0" styleClass="button-raised" stylesheets="@css.css" text="Moyen" />
+                  <Button fx:id="difficile" layoutX="83.0" layoutY="251.0" mnemonicParsing="false" onAction="#QDifficile" prefHeight="53.0" prefWidth="173.0" styleClass="button-raised" stylesheets="@css.css" text="Difficile" />
+                  <Label id="label" layoutX="83.0" layoutY="29.0" prefHeight="34.0" prefWidth="200.0" stylesheets="@css.css" text="Veuillez choisir la difficulté" />
+               </children>
+            </AnchorPane>
+         </children></AnchorPane>
+   </children>
+</StackPane>

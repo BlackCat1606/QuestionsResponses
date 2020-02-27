@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="405.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication3.QMChargController">
+   <children>
+      <ImageView fitHeight="405.0" fitWidth="480.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Icons/Light-Blue-Wallpaper-Mobile-gnNmo.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="question" layoutX="64.0" layoutY="41.0" prefHeight="324.0" prefWidth="352.0">
+         <children>
+            <TextArea fx:id="QuestM" editable="false" layoutX="14.0" layoutY="44.0" prefHeight="105.0" prefWidth="325.0" stylesheets="@css.css" />
+            <Label id="label" layoutX="130.0" layoutY="10.0" prefHeight="34.0" prefWidth="93.0" stylesheets="@css.css" text="Question :" />
+            <CheckBox fx:id="p1" layoutX="28.0" layoutY="168.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="183.0" stylesheets="@css.css" text="Prop 1" />
+            <CheckBox fx:id="p2" layoutX="28.0" layoutY="192.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="183.0" stylesheets="@css.css" text="Prop 2" />
+            <CheckBox fx:id="p3" layoutX="28.0" layoutY="218.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="183.0" stylesheets="@css.css" text="Prop 3" />
+            <CheckBox fx:id="p4" layoutX="28.0" layoutY="243.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="183.0" stylesheets="@css.css" text="Prop 4" />
+            <Button fx:id="Confirmer" layoutX="77.0" layoutY="278.0" mnemonicParsing="false" onMouseClicked="#confirmer" prefHeight="32.0" prefWidth="79.0" styleClass="button-raised" stylesheets="@css.css" text="Confirmer" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

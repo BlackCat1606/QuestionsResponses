@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane id="creation" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@css.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication3.NiveauController">
+   <children>
+      <StackPane fx:id="ModalDimmer" prefHeight="380.0" prefWidth="583.0" />
+      <ImageView fitHeight="406.0" fitWidth="607.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Icons/wallup-40394.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="question" prefHeight="234.0" prefWidth="557.0">
+         <children>
+            <AnchorPane layoutX="116.0" layoutY="24.0" prefHeight="346.0" prefWidth="339.0">
+               <children>
+                  <Label id="label" layoutX="76.0" layoutY="31.0" prefHeight="34.0" prefWidth="200.0" stylesheets="@css.css" text="Veuillez choisir la difficulté" />
+                  <JFXButton fx:id="facile" layoutX="76.0" layoutY="91.0" onAction="#QFacile" prefHeight="36.0" prefWidth="500.0" styleClass="button-raised" stylesheets="@css.css" text="Facile" />
+                  <JFXButton fx:id="moye" layoutX="76.0" layoutY="165.0" onAction="#QMoyenne" prefHeight="36.0" prefWidth="500.0" styleClass="button-raised" text="Moyen" />
+                  <JFXButton fx:id="difficile" layoutX="76.0" layoutY="238.0" onAction="#QDifficile" prefHeight="36.0" prefWidth="500.0" styleClass="button-raised" text="Difficile" />
+               </children>
+            </AnchorPane>
+         </children></AnchorPane>
+   </children>
+</StackPane>

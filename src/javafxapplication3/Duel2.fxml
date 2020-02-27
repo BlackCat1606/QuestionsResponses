@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane fx:id="stackPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication3.Duel2Controller">
+   <children>
+      <ImageView fitHeight="419.0" fitWidth="614.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Icons/Light-Blue-Wallpaper-Mobile-gnNmo.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane id="AnchorPane" fx:id="duel" prefHeight="398.0" prefWidth="600.0">
+         <children>
+            <Label id="label" fx:id="Nomj" layoutX="26.0" layoutY="14.0" prefHeight="25.0" prefWidth="63.0" stylesheets="@css.css" text="Player" />
+            <Label id="label" fx:id="ScoreJ" layoutX="505.0" layoutY="14.0" prefHeight="25.0" prefWidth="63.0" stylesheets="@css.css" text="Points" />
+            <Label id="label" layoutX="258.0" layoutY="14.0" prefHeight="17.0" prefWidth="85.0" stylesheets="@css.css" text="Question" textAlignment="CENTER" />
+            <JFXTextArea fx:id="Quest" layoutX="82.0" layoutY="56.0" maxWidth="469.0" minWidth="429.0" prefWidth="429.0" />
+            <JFXTextField fx:id="Reponse" alignment="CENTER" layoutX="129.0" layoutY="250.0" maxWidth="350.0" minWidth="263.0" prefHeight="31.0" prefWidth="350.0" promptText="Votre Réponse" />
+            <JFXButton fx:id="Confirmer" layoutX="197.0" layoutY="304.0" onAction="#confirmer" prefHeight="25.0" prefWidth="233.0" styleClass="button-raised" stylesheets="@css.css" text="Confirmer" textAlignment="CENTER" />
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="246.0" prefWidth="465.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication3.Dep2Controller">
+   <children>
+      <ImageView fitHeight="252.0" fitWidth="472.0" layoutX="-6.0" layoutY="-1.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Icons/LogIN.jpg" />
+         </image>
+      </ImageView>
+      <Label id="label" layoutX="126.0" layoutY="39.0" stylesheets="@css.css" text="Veuillez choisir le déplacement :" textFill="#3054f0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="deplacement" layoutX="158.0" layoutY="98.0" stylesheets="@caspian.css" />
+      <Button fx:id="conf" layoutX="133.0" layoutY="163.0" mnemonicParsing="false" onAction="#get_dep" prefHeight="38.0" prefWidth="93.0" styleClass="button-raised" stylesheets="@css.css" text="Confirmer">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

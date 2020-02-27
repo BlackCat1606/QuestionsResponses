@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import Code.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<ScrollPane prefHeight="980.0" prefWidth="1360.0" stylesheets="@css.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication3.ChargementPartieController">
+   <content>
+      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1100.0" prefWidth="1360.0">
+         <children>
+            <ImageView fitHeight="1500.0" fitWidth="1362.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../Icons/mininalism-military-gun-pattern-game-wallpaper-background.jpg" />
+               </image>
+            </ImageView>
+            <GridPane fx:id="gridPane" alignment="CENTER" layoutX="91.0" layoutY="-41.0" prefHeight="1000.0" prefWidth="1200.0" translateY="150.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="102.0" minWidth="10.0" prefWidth="102.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="98.0" minWidth="10.0" prefWidth="98.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints maxHeight="48.0" minHeight="10.0" prefHeight="43.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="48.0" minHeight="20.0" prefHeight="43.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="48.0" minHeight="20.0" prefHeight="43.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="48.0" minHeight="20.0" prefHeight="43.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="48.0" minHeight="10.0" prefHeight="43.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="48.0" minHeight="10.0" prefHeight="43.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="48.0" minHeight="10.0" prefHeight="43.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="48.0" minHeight="10.0" prefHeight="43.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="48.0" minHeight="10.0" prefHeight="43.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="48.0" minHeight="10.0" prefHeight="43.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="48.0" minHeight="10.0" prefHeight="43.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="54.0" minHeight="0.0" prefHeight="54.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="48.0" minHeight="10.0" prefHeight="43.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="48.0" minHeight="0.0" prefHeight="43.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="48.0" minHeight="6.0" prefHeight="43.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="48.0" minHeight="10.0" prefHeight="43.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="48.0" minHeight="10.0" prefHeight="43.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="48.0" minHeight="10.0" prefHeight="43.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="48.0" minHeight="10.0" prefHeight="43.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="48.0" minHeight="10.0" prefHeight="43.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="48.0" minHeight="10.0" prefHeight="43.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="48.0" minHeight="10.0" prefHeight="43.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="48.0" minHeight="10.0" prefHeight="43.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Case numéro="1" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="1" />
+                  <Case domaine="Politiques" layoutX="10.0" layoutY="12.0" numéro="2" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="2" GridPane.columnIndex="1" />
+                  <Case layoutX="10.0" layoutY="12.0" numéro="63" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="21" GridPane.columnIndex="12" GridPane.rowIndex="10" />
+                  <Case layoutX="10.0" layoutY="12.0" numéro="62" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="20" GridPane.columnIndex="12" GridPane.rowIndex="9" />
+                  <Case layoutX="10.0" layoutY="12.0" numéro="19" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="19" GridPane.columnIndex="9" GridPane.rowIndex="9" />
+                  <Case layoutX="10.0" layoutY="12.0" numéro="18" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="18" GridPane.columnIndex="9" GridPane.rowIndex="8" />
+                  <Case layoutX="10.0" layoutY="12.0" numéro="17" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="17" GridPane.columnIndex="8" GridPane.rowIndex="8" />
+                  <Case layoutX="10.0" layoutY="12.0" numéro="16" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="16" GridPane.columnIndex="8" GridPane.rowIndex="7" />
+                  <Case layoutX="10.0" layoutY="12.0" numéro="15" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="15" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+                  <Case layoutX="10.0" layoutY="12.0" numéro="14" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="14" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+                  <Case layoutX="10.0" layoutY="12.0" numéro="13" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="13" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+                  <Case layoutX="10.0" layoutY="12.0" numéro="12" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="12" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+                  <Case layoutX="10.0" layoutY="12.0" numéro="11" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="11" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+                  <Case layoutX="10.0" layoutY="12.0" numéro="10" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="10" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+                  <Case domaine="CultureGénerale" layoutX="10.0" layoutY="12.0" numéro="9" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="9" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+                  <Case domaine="Cinéma" layoutX="10.0" layoutY="12.0" numéro="8" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="8" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                  <Case domaine="Musique" layoutX="10.0" layoutY="12.0" numéro="7" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="7" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                  <Case layoutX="10.0" layoutY="12.0" numéro="6" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="6" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                  <Case domaine="Musique" layoutX="10.0" layoutY="12.0" numéro="5" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="5" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                  <Case domaine="Sport" layoutX="10.0" layoutY="12.0" numéro="4" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="4" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                  <Case domaine="Géographie" layoutX="10.0" layoutY="12.0" numéro="3" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="3" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Case layoutX="10.0" layoutY="12.0" numéro="43" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="1" GridPane.columnIndex="22" />
+                  <Case layoutX="10.0" layoutY="12.0" numéro="44" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="2" GridPane.columnIndex="21" />
+                  <Case layoutX="10.0" layoutY="12.0" numéro="45" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="3" GridPane.columnIndex="21" GridPane.rowIndex="1" />
+                  <Case layoutX="10.0" layoutY="12.0" numéro="46" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="4" GridPane.columnIndex="20" GridPane.rowIndex="1" />
+                  <Case layoutX="10.0" layoutY="12.0" numéro="47" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="5" GridPane.columnIndex="20" GridPane.rowIndex="2" />
+                  <Case layoutX="10.0" layoutY="12.0" numéro="48" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="6" GridPane.columnIndex="19" GridPane.rowIndex="2" />
+                  <Case layoutX="10.0" layoutY="12.0" numéro="49" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="7" GridPane.columnIndex="19" GridPane.rowIndex="3" />
+                  <Case layoutX="10.0" layoutY="12.0" numéro="50" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="8" GridPane.columnIndex="18" GridPane.rowIndex="3" />
+                  <Case layoutX="10.0" layoutY="12.0" numéro="51" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="9" GridPane.columnIndex="18" GridPane.rowIndex="4" />
+                  <Case layoutX="10.0" layoutY="12.0" numéro="52" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="10" GridPane.columnIndex="17" GridPane.rowIndex="4" />
+                  <Case layoutX="10.0" layoutY="12.0" numéro="53" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="11" GridPane.columnIndex="17" GridPane.rowIndex="5" />
+                  <Case layoutX="10.0" layoutY="12.0" numéro="54" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="12" GridPane.columnIndex="16" GridPane.rowIndex="5" />
+                  <Case layoutX="10.0" layoutY="12.0" numéro="55" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="13" GridPane.columnIndex="16" GridPane.rowIndex="6" />
+                  <Case layoutX="10.0" layoutY="12.0" numéro="56" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="14" GridPane.columnIndex="15" GridPane.rowIndex="6" />
+                  <Case layoutX="10.0" layoutY="12.0" numéro="57" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="15" GridPane.columnIndex="15" GridPane.rowIndex="7" />
+                  <Case layoutX="10.0" layoutY="12.0" numéro="58" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="16" GridPane.columnIndex="14" GridPane.rowIndex="7" />
+                  <Case layoutX="10.0" layoutY="12.0" numéro="59" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="17" GridPane.columnIndex="14" GridPane.rowIndex="8" />
+                  <Case layoutX="10.0" layoutY="12.0" numéro="60" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="18" GridPane.columnIndex="13" GridPane.rowIndex="8" />
+                  <Case layoutX="10.0" layoutY="12.0" numéro="61" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="19" GridPane.columnIndex="13" GridPane.rowIndex="9" />
+                  <Case layoutX="10.0" layoutY="12.0" numéro="20" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="20" GridPane.columnIndex="10" GridPane.rowIndex="9" />
+                  <Case layoutX="10.0" layoutY="12.0" numéro="21" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="21" GridPane.columnIndex="10" GridPane.rowIndex="10" />
+                  <Case numéro="23" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="23" GridPane.columnIndex="12" GridPane.rowIndex="11" />
+                  <Case numéro="38" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="38" GridPane.columnIndex="10" GridPane.rowIndex="19" />
+                  <Case numéro="36" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="36" GridPane.columnIndex="10" GridPane.rowIndex="18" />
+                  <Case numéro="37" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="37" GridPane.columnIndex="12" GridPane.rowIndex="18" />
+                  <Case numéro="34" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="34" GridPane.columnIndex="10" GridPane.rowIndex="17" />
+                  <Case numéro="35" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="35" GridPane.columnIndex="12" GridPane.rowIndex="17" />
+                  <Case numéro="32" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="32" GridPane.columnIndex="10" GridPane.rowIndex="16" />
+                  <Case numéro="33" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="33" GridPane.columnIndex="12" GridPane.rowIndex="16" />
+                  <Case numéro="30" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="30" GridPane.columnIndex="10" GridPane.rowIndex="15" />
+                  <Case numéro="31" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="31" GridPane.columnIndex="12" GridPane.rowIndex="15" />
+                  <Case numéro="28" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="28" GridPane.columnIndex="10" GridPane.rowIndex="14" />
+                  <Case numéro="29" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="29" GridPane.columnIndex="12" GridPane.rowIndex="14" />
+                  <Case numéro="26" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="26" GridPane.columnIndex="10" GridPane.rowIndex="13" />
+                  <Case numéro="27" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="27" GridPane.columnIndex="12" GridPane.rowIndex="13" />
+                  <Case numéro="24" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="24" GridPane.columnIndex="10" GridPane.rowIndex="12" />
+                  <Case numéro="25" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="25" GridPane.columnIndex="12" GridPane.rowIndex="12" />
+                  <Case numéro="22" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="22" GridPane.columnIndex="10" GridPane.rowIndex="11" />
+                  <Case numéro="42" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="42" GridPane.columnIndex="11" GridPane.rowIndex="21" />
+                  <Case numéro="41" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="41" GridPane.columnIndex="12" GridPane.rowIndex="20" />
+                  <Case numéro="40" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="40" GridPane.columnIndex="10" GridPane.rowIndex="20" />
+                  <Case numéro="39" onMouseClicked="#Cliquer_Case" prefHeight="40.0" prefWidth="41.0" style="-fx-background-radius: 200;" styleClass="button-raised" stylesheets="@css.css" text="39" GridPane.columnIndex="12" GridPane.rowIndex="19" />
+               </children>
+            </GridPane>
+            <Label id="label" fx:id="JB" layoutX="1177.0" layoutY="52.0" prefHeight="17.0" prefWidth="110.0" />
+            <Label id="label" fx:id="JA" layoutX="76.0" layoutY="51.0" prefHeight="17.0" prefWidth="96.0" />
+            <MenuBar id=" Menue" layoutY="2.0" styleClass="Menue">
+              <menus>
+                <Menu mnemonicParsing="false" onAction="#Sauvegarder_partie" text="Partie">
+                  <items>
+                        <MenuItem mnemonicParsing="false" onAction="#ChargerPartie" text="Ouvrir Partie" />
+                        <MenuItem mnemonicParsing="false" text="Sauvegarder Partie" />
+                    <MenuItem mnemonicParsing="false" onAction="#Fermer" text="Fermer" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edition">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Delete" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Aide">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <HBox fx:id="nomj" layoutX="533.0" layoutY="23.0" prefHeight="40.0" prefWidth="200.0" />
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>

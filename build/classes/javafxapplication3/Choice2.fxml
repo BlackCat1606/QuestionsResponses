@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication3.Choice2Controller">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Icons/Light-Blue-Wallpaper-Mobile-gnNmo.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="Confirmer" layoutX="193.0" layoutY="310.0" onAction="#confirmer" prefHeight="25.0" prefWidth="190.0" styleClass="button-raised" stylesheets="@css.css" text="Confirmer" />
+      <JFXRadioButton fx:id="p1" layoutX="125.0" layoutY="112.0" text="Rester sur la méme case" />
+      <JFXRadioButton fx:id="p2" layoutX="125.0" layoutY="155.0" text="Gagner un tour" />
+      <JFXRadioButton fx:id="p3" layoutX="125.0" layoutY="200.0" text="Prendre la main" />
+      <Label id="label" layoutX="137.0" layoutY="50.0" prefHeight="17.0" prefWidth="312.0" stylesheets="@css.css" text="Vous voulez faire quoi ?" textFill="#718632" />
+   </children>
+</AnchorPane>
